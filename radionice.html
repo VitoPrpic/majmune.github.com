@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="bs" data-bs-theme="dark">
+<head>
+    <!-- SEO -->
+    <meta charset="utf-8">
+    <title>Mini TVZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mini tvz radionice">
+    <meta name="apple-mobile-web-app-title" content="Mini tvz" />
+    <link rel="manifest" href="" />
+ 
+    <!-- Libs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css" integrity="sha512-DzC7h7+bDlpXPDQsX/0fShhf1dLxXlHuhPBkBo/5wJWRoTU6YL7moeiNoej6q3wh5ti78C57Tu1JwTNlcgHSjg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font -->
+    
+    
+   
+    <!-- CSS -->
+    <link rel="stylesheet" href="stil_radionice.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-medium" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img class="d-block d-lg-none" src="" alt="mini tvz" draggable="false">
+            <span class="d-none d-lg-block">Mini tvz</span>
+        </a>
+        
+        <!-- Navbar toggler for offcanvas on smaller screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav" aria-label="Navigacija">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Offcanvas navbar for small screens (collapsible for large screens) -->
+        <div class="offcanvas offcanvas-end navbar-expand-lg bg-black" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+            <div class="offcanvas-header">
+                <a class="offcanvas-title" id="offcanvasNavLabel" href="">
+                    <img src="" alt="OxyMC Network" draggable="false">
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Zatvori"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item nav-item-main text-center text-lg-start">
+                        <a class="nav-link" href="index.html">Naslovnica</a>
+                    </li>
+                    <li class="nav-item nav-item-main text-center text-lg-start">
+                        <a class="nav-link" href="radionice.html">Radionice</a>
+                    </li>
+                    <li class="nav-item nav-item-main text-center text-lg-start">
+                        <a class="nav-link" href="#">Vijesti i blog</a>
+                    </li>
+              
+                    <!-- Sub menu for OAuth2 account management -->
+                    <li class="nav-item text-center text-lg-start dropdown dropstart">
+                                            <a class="nav-link panda--odjavljen" href=""><i class="fa-solid fa-user-plus"></i> prijava</a>
+                                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="filter-container" style="max-width: 600px; margin: 110px auto 0 auto; text-align:center; display: flex; gap: 10px; justify-content: center; align-items: center;">
+    <input type="text" placeholder="Pretraži radionice..." style="
+      flex-grow: 1;
+      padding: 12px 15px; 
+      border-radius: 8px; 
+      border: none; 
+      font-size: 1rem;
+      background: #161b22;
+      color: #c9d1d9;
+      box-shadow: inset 0 0 5px #cc3636;
+    ">
+    <button style="
+      background-color: #cc3636;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    " onmouseover="this.style.backgroundColor='#cc3636'" onmouseout="this.style.backgroundColor='#cc3636'">
+      Filtriraj
+    </button>
+  </div>
+    <div class="container">
+        <div class="kutija1 kutija">
+            <div class="radionica-sadrzaj">
+                <div class="radionica-slika">
+                    <img src="slikeradionice/radionica1.jpg" alt="Radionica 1">
+                </div>
+                <div class="radionica-tekst">
+                    <h2>Radionica 1</h2>
+                    <h3>Uvod u svijet programiranja</h3>
+                    <p>Dobrodošli u radionicu "Uvod u Svijet Programiranja"! Ova radionica je namijenjena svima koji žele naučiti osnove programiranja bez obzira na prethodno iskustvo. Kroz interaktivne primjere i jednostavne vježbe, upoznat ćemo se s osnovnim konceptima kao što su varijable, petlje i uvjetne strukture. Očekujte zabavno i edukativno iskustvo koje će vas uvesti u temelje programiranja i pomoći vam da razvijete svoje vještine.</p>
+                    <a href="#" class="prijava-btn">Prijavi se</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="kutija1">
+            <div class="radionica-sadrzaj">
+                <div class="radionica-slika">
+                    <img src="slikeradionice/radionica2.jpg" alt="Radionica 2">
+                </div>
+                <div class="radionica-tekst">
+                    <h2>Radionica 2</h2>
+                    <h3>Izrada Web Stranica za Početnike</h3>
+                    <p>Pozdrav svima! U radionici "Izrada Web Stranica za Početnike" istražit ćemo osnove web razvoja korak po korak. Bez obzira jeste li novi u svijetu web tehnologija ili već imate neko iskustvo, ova radionica pružit će vam priliku da naučite kako kreirati funkcionalne i privlačne web stranice. Kroz praktične primjere ćemo se upoznati s HTML-om, CSS-om i osnovama JavaScript-a, dajući vam alate i znanja potrebna za izgradnju vaših prvih web projekata.</p>
+                    <a href="#" class="prijava-btn">Prijavi se</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+	
+
+	<footer>
+	<div class="container d-block d-md-flex justify-content-between align-items-center text-center text-md-start">
+		<div class="copyright">
+			<a href="" target="_blank" class="text-white">Mini tvz</a> &copy; 2024. - 2025. Sva prava pridržana.<br>
+			Razvio i dizajnirao <a href="#" target="_blank">Tim sablja</a> (uz mnogo <i class="fa-solid fa-mug-hot" title=""></i>).
+		</div>
+		<div class="socials mt-3 mt-md-0 d-flex flex-wrap gap-3 justify-content-center">
+			<a class="glitch" href="#" target="_blank"><i class="fa-brands fa-discord"></i></a>
+			<a class="glitch" href="#" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+			<a class="glitch" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			<a class="glitch" href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+			<a class="glitch" href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+			<a class="glitch" href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+		</div>
+	</div>
+	<div class="d-none text-center">
+		<a href="//www.dmca.com/Protection/Status.aspx?ID=e8ee9128-7d60-47ae-9a9c-4886b39715d3" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-2x1-04.png?ID=e8ee9128-7d60-47ae-9a9c-4886b39715d3"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js" type="e750d441117b49a6c948e368-text/javascript"> </script>
+	</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer" type="e750d441117b49a6c948e368-text/javascript"></script>
+
+
+
+	
+</body>
+</html>
