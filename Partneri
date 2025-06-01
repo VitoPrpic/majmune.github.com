@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="bs" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <title>Partneri - Mini TVZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Partneri Mini TVZ radionica">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stil.css">
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script> <!-- Ne zaboravi svoj kit ID -->
+</head>
+<body>
+
+<!-- Navigacija -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-medium" role="navigation">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Mini TVZ</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end bg-black" id="offcanvasNav">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Mini TVZ</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Naslovnica</a></li>
+          <li class="nav-item"><a class="nav-link" href="radionice.html">Radionice</a></li>
+          <li class="nav-item"><a class="nav-link" href="vijesti.html">Vijesti i blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="Onama.html"></i>O nama</a></li>
+          <li class="nav-item"><a class="nav-link" href="prijava.html"><i class="fa-solid fa-user-plus"></i>Prijava</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Sekcija Partneri -->
+<section class="pt-5 mt-5">
+  <div class="container">
+    <h2 class="display-5 fw-bold text-center mb-4">Naši partneri</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+      <div class="col">
+        <div class="card h-100 bg-dark text-white">
+          <div class="card-body">
+            <h5 class="card-title">OŠ Nikola Tesla</h5>
+            <p class="card-text">Partner od 2022. godine – domaćin više od 10 radionica godišnje.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 bg-dark text-white">
+          <div class="card-body">
+            <h5 class="card-title">STEM Lab Zagreb</h5>
+            <p class="card-text">Tehnički partner i suorganizator STEM turnira za djecu.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 bg-dark text-white">
+          <div class="card-body">
+            <h5 class="card-title">IT klub Sisak</h5>
+            <p class="card-text">Pomažu u edukaciji i mentoriranju kroz lokalne projekte.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Kako postati partner -->
+<section class="py-5 bg-secondary-subtle text-dark">
+  <div class="container">
+    <h3 class="text-center fw-bold mb-4">Postani naš partner</h3>
+    <p class="lead text-center">Mini TVZ traži škole, udruge, poduzeća i pojedince koji žele zajedno s nama širiti STEM znanje među djecom!</p>
+    <ul class="list-group list-group-flush mt-4 mx-auto" style="max-width: 700px;">
+      <li class="list-group-item bg-transparent">✔️ Pristup STEM sadržajima i materijalima</li>
+      <li class="list-group-item bg-transparent">✔️ Vidljivost kroz naše događaje i radionice</li>
+      <li class="list-group-item bg-transparent">✔️ Mogućnost zajedničkih projekata i sponzorstava</li>
+    </ul>
+    <div class="text-center mt-4">
+      <a href="Onama.html" class="btn btn-dark fw-bold">Javite nam se</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+    <div>&copy; 2025 Mini TVZ. Sva prava pridržana.</div>
+    <div class="socials mt-3 mt-md-0 d-flex gap-3">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
