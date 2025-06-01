@@ -18,32 +18,43 @@
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-medium">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-medium" role="navigation">
     <div class="container">
         <a class="navbar-brand" href="index.html">
+            <img class="d-block d-lg-none" src="slika intro.png" alt="mini tvz" draggable="false">
             <span class="d-none d-lg-block">Mini tvz</span>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+	    
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav" aria-label="Navigacija">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end navbar-expand-lg bg-black" id="offcanvasNav">
+        
+        <div class="offcanvas offcanvas-end navbar-expand-lg bg-black" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
             <div class="offcanvas-header">
-                <a class="offcanvas-title" href="#">Mini TVZ</a>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <a class="offcanvas-title" id="offcanvasNavLabel" href="slika intro.png">
+                    <img src="index.html" draggable="false">
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Zatvori"></button>
             </div>
             <div class="offcanvas-body">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item text-center text-lg-start">
+                    <li class="nav-item nav-item-main text-center text-lg-start">
                         <a class="nav-link" href="index.html">Naslovnica</a>
                     </li>
-                    <li class="nav-item text-center text-lg-start">
+                    <li class="nav-item nav-item-main text-center text-lg-start">
                         <a class="nav-link" href="radionice.html">Radionice</a>
                     </li>
-                    <li class="nav-item text-center text-lg-start">
+                    <li class="nav-item nav-item-main text-center text-lg-start">
                         <a class="nav-link" href="vijesti.html">Vijesti i blog</a>
                     </li>
-                    <li class="nav-item text-center text-lg-start">
-                        <a class="nav-link" href="prijava.html"><i class="fa-solid fa-user-plus"></i> prijava</a>
+		    <li class="nav-item nav-item-main text-center text-lg-start">
+                        <a class="nav-link" href="partneri.html">Partneri</a>
+                    </li>
+		    <li class="nav-item nav-item-main text-center text-lg-start">
+                        <a class="nav-link" href="onama.html">O nama</a>
+                    </li>
+                    <li class="nav-item text-center text-lg-start dropdown dropstart">
+                        <a class="nav-link panda--odjavljen" href="prijava.html"><i class="fa-solid fa-user-plus"></i> Prijava</a>
                     </li>
                 </ul>
             </div>
