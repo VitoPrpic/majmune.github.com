@@ -1251,14 +1251,6 @@ footer .socials a {
     footer .socials a {
         font-size: 2rem;
     }
-
-    .radionica-sadrzaj {
-        flex-direction: column;
-    }
-
-    .radionica-slika, .radionica-tekst {
-        flex: 1 1 100%;
-    }
 }
 
 /* Extra small (xs): <576 px */
