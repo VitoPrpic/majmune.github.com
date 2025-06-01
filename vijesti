@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="bs" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <title>Vijesti i Blog - Mini TVZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vijesti i blog Mini TVZ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="vijesti.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-medium" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="d-none d-lg-block">Mini tvz</span>
+                <img class="d-block d-lg-none" src="https://panda.oxymc.network/static/images/logo-text-white.webp" alt="mini tvz" draggable="false">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav" aria-label="Navigacija">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end navbar-expand-lg bg-black" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+                <div class="offcanvas-header">
+                    <a class="offcanvas-title" id="offcanvasNavLabel" href="https://oxymc.network">
+                        <img src="https://panda.oxymc.network/static/images/logo-text-white.webp" alt="OxyMC Network" draggable="false">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Zatvori"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item nav-item-main text-center text-lg-start"><a class="nav-link" href="index.html">Naslovnica</a></li>
+                        <li class="nav-item nav-item-main text-center text-lg-start"><a class="nav-link" href="radionice.html">Radionice</a></li>
+                        <li class="nav-item nav-item-main text-center text-lg-start"><a class="nav-link active" href="#">Vijesti i blog</a></li>
+                        <li class="nav-item text-center text-lg-start dropdown dropstart">
+                            <a class="nav-link panda--odjavljen" href="https://account.oxymc.network/prijava"><i class="fa-solid fa-user-plus"></i> prijava</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- MAIN CONTENT -->
+    <main class="container" style="padding-top: 100px;">
+        <header class="mb-4 text-center">
+            <h1 class="display-4 fw-bold text-uppercase">Vijesti i Blog</h1>
+            <p class="lead">Najnovije vijesti, objave i zanimljive teme sa Mini TVZ-a.</p>
+        </header>
+        <section class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+            <!-- Example article card -->
+            <article class="col">
+                <a href="https://blog.oxymc.network/novost-1" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm">
+                        <img src="slike/novost1.jpg" class="card-img-top" alt="Naslov novosti 1">
+                        <div class="card-body">
+                            <h3 class="card-title">Naslov vijesti 1</h3>
+                            <p class="card-text">Kratki uvod u vijest ili blog post kako bi zainteresirali čitatelja.</p>
+                            <time datetime="2025-06-01" class="text-muted small">1. juni 2025.</time>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            <article class="col">
+                <a href="https://blog.oxymc.network/novost-2" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm">
+                        <img src="slike/novost2.jpg" class="card-img-top" alt="Naslov novosti 2">
+                        <div class="card-body">
+                            <h3 class="card-title">Naslov vijesti 2</h3>
+                            <p class="card-text">Još jedan zanimljiv tekst sa detaljima i informacijama.</p>
+                            <time datetime="2025-05-28" class="text-muted small">28. maj 2025.</time>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            <article class="col">
+                <a href="https://blog.oxymc.network/novost-3" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm">
+                        <img src="slike/novost3.jpg" class="card-img-top" alt="Naslov novosti 3">
+                        <div class="card-body">
+                            <h3 class="card-title">Naslov vijesti 3</h3>
+                            <p class="card-text">Informativni tekst koji daje uvid u aktualnosti i teme.</p>
+                            <time datetime="2025-05-20" class="text-muted small">20. maj 2025.</time>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            <!-- Dodaj više članaka po potrebi -->
+        </section>
+        <div class="text-center mt-4">
+            <a href="https://blog.oxymc.network" class="btn btn-primary">Pogledaj sve vijesti <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="mt-5">
+        <div class="container d-block d-md-flex justify-content-between align-items-center text-center text-md-start">
+            <div class="copyright">
+                <a href="https://oxygaming.com" target="_blank" class="text-white">Mini tvz</a> &copy; 2024. - 2025. Sva prava pridržana.<br>
+                Razvio i dizajnirao <a href="https://faris.ajanovic.ba" target="_blank">Tim sablja</a> (uz mnogo <i class="fa-solid fa-mug-hot" title="Šoljica kafe"></i>).
+            </div>
+            <div class="socials mt-3 mt-md-0 d-flex flex-wrap gap-3 justify-content-center">
+                <a class="glitch" href="https://discord.gg/pbtEFwv" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a class="glitch" href="https://facebook.com/oxygamingofcl" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                <a class="glitch" href="https://instagram.com/oxygamingofcl" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a class="glitch" href="https://x.com/oxygamingofcl" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a class="glitch" href="https://youtube.com/oxygaming" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a class="glitch" href="https://tiktok.com/@oxygamingofcl" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
