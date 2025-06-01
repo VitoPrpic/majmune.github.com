@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="bs" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <title>O nama - Mini TVZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O nama - Mini TVZ STEM radionice">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+
+<!-- Navigacija (ista kao na index.html) -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-medium" role="navigation">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Mini TVZ</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end bg-black" id="offcanvasNav">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Mini TVZ</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Naslovnica</a></li>
+          <li class="nav-item"><a class="nav-link" href="radionice.html">Radionice</a></li>
+          <li class="nav-item"><a class="nav-link" href="partneri.html">Partneri</a></li>
+          <li class="nav-item"><a class="nav-link" href="prijava.html"><i class="fa-solid fa-user-plus"></i> Prijava</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- O nama sekcija -->
+<section class="pt-5 mt-5">
+  <div class="container">
+    <h2 class="display-5 fw-bold text-center mb-4">O projektu Mini TVZ</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <p class="lead text-center">
+          <strong>Mini TVZ</strong> je edukativni projekt koji okuplja djecu osnovnoškolskog uzrasta kroz zanimljive, interaktivne i zabavne STEM radionice.
+        </p>
+        <p>
+          Cilj projekta je popularizacija znanosti, tehnologije, inženjerstva i matematike među najmlađima kroz radionice koje razvijaju kritičko razmišljanje, kreativnost i timski duh. Projekt vodi grupa entuzijasta i edukatora s Tehničkog veleučilišta u Zagrebu, uz podršku škola, udruga i tehnoloških partnera.
+        </p>
+        <p>
+          Naše radionice su besplatne, otvorene svima i održavaju se širom Hrvatske u suradnji s lokalnim zajednicama. Vjerujemo da STEM pripada svakom djetetu.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Kontakt forma -->
+<section class="py-5 bg-secondary-subtle text-dark">
+  <div class="container">
+    <h3 class="text-center fw-bold mb-4">Kontaktiraj nas</h3>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <form action="mailto:kontakt@minitvz.hr" method="post" enctype="text/plain">
+          <div class="mb-3">
+            <label for="ime" class="form-label">Ime</label>
+            <input type="text" class="form-control" id="ime" name="Ime" required>
+          </div>
+          <div class="mb-3">
+            <label for="prezime" class="form-label">Prezime</label>
+            <input type="text" class="form-control" id="prezime" name="Prezime" required>
+          </div>
+          <div class="mb-3">
+            <label for="poruka" class="form-label">Poruka</label>
+            <textarea class="form-control" id="poruka" name="Poruka" rows="5" required></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-dark fw-bold">Pošalji</button>
+          </div>
+        </form>
+        <p class="text-center mt-3 small">Alternativno nam pišite na: <a href="mailto:kontakt@minitvz.hr">kontakt@minitvz.hr</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+    <div>&copy; 2025 Mini TVZ. Sva prava pridržana.</div>
+    <div class="socials mt-3 mt-md-0 d-flex gap-3">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
