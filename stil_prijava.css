@@ -1,0 +1,272 @@
+h2 {
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Forma za prijavu */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.form-label {
+    color: #ffffff;
+}
+
+.form-control {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: #2a2a2a;
+    border-color: #cc3636;
+    box-shadow: none;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #cc3636;
+    border-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #cc3636;
+    border-color: #cc3636;
+}
+
+.kutija{
+    margin-top: 30px;
+}
+img{
+    width: 35%;
+}
+html, body {
+	height: 100%;
+}
+html {
+	scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+}
+body {
+	font-family: "Poppins", system-ui;
+	background: #0d1117;
+    padding-top: 90px;
+}
+section {
+	display: block;
+}
+img {
+	pointer-events: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 0px 12px;
+}
+.kutija1 {
+    width: 100%;
+    background-color: #161b22;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    color: #c9d1d9;
+}
+.radionica-sadrzaj {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+.radionica-slika {
+    flex: 1 1 40%;
+}
+.radionica-slika img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.radionica-tekst {
+    flex: 1 1 55%;
+}
+.radionica-tekst h2 {
+    font-size: 1.8rem;
+
+    margin-bottom: 10px;
+}
+.radionica-tekst h3 {
+    font-size: 1.3rem;
+
+    margin-bottom: 15px;
+}
+.radionica-tekst p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #adbac7;
+    margin-bottom: 20px;
+}
+.prijava-btn {
+    display: inline-block;
+    background-color: #cc3636;
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.prijava-btn:hover {
+    background-color: #cc3636;
+    transform: translateY(-2px);
+}
+
+/* Responsive za mobilne uređaje */
+@media(max-width: 768px) {
+    .radionica-sadrzaj {
+        flex-direction: column;
+    }
+
+    .radionica-slika, .radionica-tekst {
+        flex: 1 1 100%;
+    }
+}
+
+/* Navbar */
+.navbar {
+	padding: 4px 0;
+	width: 100%;
+}
+
+.navbar::before { /* Frosting effect */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: transparent;
+    backdrop-filter: blur(32px);
+    pointer-events: none;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-brand {
+	font-size: 1.2rem;
+}
+
+.navbar .nav-link, .navbar .dropdown-item {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+.navbar .nav-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .navbar-brand img, .offcanvas-title img {
+	height: 50px;
+}
+
+.navbar .nav-item {
+    padding: 0.625rem 0.5rem;
+}
+
+.navbar .nav-item.dropdown {
+    padding: 0.625rem 0 0.625rem 0.5rem;
+}
+
+.navbar li.dropdown {
+    border-left: 1px solid rgba(255,255,255,.3);
+}
+
+.navbar .dropdown-menu {
+    border-radius: var(--oxy-border-radius);
+    border: none;
+    /*border: 1px solid hsla(0,0%,100%,.3);*/
+    padding: 0;
+    background: none;
+    min-width: max-content;
+}
+
+.navbar .dropdown-menu > li { display: inline-block; }
+
+.navbar .dropdown-menu a.dropdown-item {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar .dropdown-menu a.dropdown-item:hover {
+    background: inherit;
+    color: var(--oxy-signature) !important;
+}
+
+
+footer {
+    margin-top: 125px;
+    padding: 75px 0;
+    position: sticky;
+    top: 100%;
+    /*background-color: #1c2128;*/
+    background-color: #090c10;
+}
+
+footer .socials a {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+@media(max-width: 991px) {
+    .navbar .nav-item, .navbar .nav-item.dropdown {
+        padding: unset;
+    }
+    .navbar li.dropdown {
+        border-left: none;
+    }
+    .navbar .dropdown-menu { 
+        min-width: auto;
+        -moz-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    .navbar .dropdown-menu.show {
+        border: 1px solid rgba(255,255,255,.3);
+    }
+    .navbar .dropdown-menu > li {
+        display: inherit;
+        -moz-transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    .dropstart .dropdown-toggle::before {
+        transform: rotate(-90deg);
+    }
+    .sub-banner {
+        height: 300px;
+    }
+}
+/* Extra small (xs): <576 px */
+@media(max-width: 575px) {
+
+}
