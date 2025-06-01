@@ -22,23 +22,21 @@
     <link rel="stylesheet" href="stil_radionice.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-medium" role="navigation">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-medium" role="navigation">
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img class="d-block d-lg-none" src="" alt="mini tvz" draggable="false">
+            <img class="d-block d-lg-none" src="slika intro.png" alt="mini tvz" draggable="false">
             <span class="d-none d-lg-block">Mini tvz</span>
         </a>
-        
-        <!-- Navbar toggler for offcanvas on smaller screens -->
+	    
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav" aria-label="Navigacija">
             <span class="navbar-toggler-icon"></span>
         </button>
         
-        <!-- Offcanvas navbar for small screens (collapsible for large screens) -->
         <div class="offcanvas offcanvas-end navbar-expand-lg bg-black" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
             <div class="offcanvas-header">
-                <a class="offcanvas-title" id="offcanvasNavLabel" href="">
-                    <img src="" draggable="false">
+                <a class="offcanvas-title" id="offcanvasNavLabel" href="slika intro.png">
+                    <img src="index.html" draggable="false">
                 </a>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Zatvori"></button>
             </div>
@@ -53,16 +51,21 @@
                     <li class="nav-item nav-item-main text-center text-lg-start">
                         <a class="nav-link" href="vijesti.html">Vijesti i blog</a>
                     </li>
-              
-                    <!-- Sub menu for OAuth2 account management -->
+		    <li class="nav-item nav-item-main text-center text-lg-start">
+                        <a class="nav-link" href="partneri.html">Partneri</a>
+                    </li>
+		    <li class="nav-item nav-item-main text-center text-lg-start">
+                        <a class="nav-link" href="onama.html">O nama</a>
+                    </li>
                     <li class="nav-item text-center text-lg-start dropdown dropstart">
-                                            <a class="nav-link panda--odjavljen" href="prijava.html"><i class="fa-solid fa-user-plus"></i> prijava</a>
-                                        </li>
+                        <a class="nav-link panda--odjavljen" href="prijava.html"><i class="fa-solid fa-user-plus"></i> Prijava</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
+	
 <div class="filter-container" style="max-width: 600px; margin: 110px auto 0 auto; text-align:center; display: flex; gap: 10px; justify-content: center; align-items: center;">
     <input type="text" placeholder="Pretraži radionice..." style="
       flex-grow: 1;
