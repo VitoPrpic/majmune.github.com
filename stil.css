@@ -1,3 +1,93 @@
+.kutija{
+    margin-top: 30px;
+}
+img{
+    width: 35%;
+}
+html, body {
+	height: 100%;
+}
+html {
+	scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+}
+body {
+	font-family: "Poppins", system-ui;
+	background: #0d1117;
+}
+section {
+	display: block;
+}
+img {
+	pointer-events: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 0px 12px;
+}
+.kutija1 {
+    width: 100%;
+    background-color: #161b22;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    color: #c9d1d9;
+}
+.radionica-sadrzaj {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+.radionica-slika {
+    flex: 1 1 40%;
+}
+.radionica-slika img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.radionica-tekst {
+    flex: 1 1 55%;
+}
+.radionica-tekst h2 {
+    font-size: 1.8rem;
+
+    margin-bottom: 10px;
+}
+.radionica-tekst h3 {
+    font-size: 1.3rem;
+
+    margin-bottom: 15px;
+}
+.radionica-tekst p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #adbac7;
+    margin-bottom: 20px;
+}
+.prijava-btn {
+    display: inline-block;
+    background-color: #cc3636;
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.prijava-btn:hover {
+    background-color: #cc3636;
+    transform: translateY(-2px);
+}
+
 /* Utilities */
 :root {
     --oxy-signature: #cc3636;
@@ -1249,6 +1339,14 @@ footer .socials a {
     }
     footer .socials a {
         font-size: 2rem;
+    }
+
+    .radionica-sadrzaj {
+        flex-direction: column;
+    }
+
+    .radionica-slika, .radionica-tekst {
+        flex: 1 1 100%;
     }
 }
 
